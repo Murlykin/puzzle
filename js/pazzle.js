@@ -1,6 +1,6 @@
 window.addEventListener("load", function(){
 
-let img = '../../images/pic.jpg';
+let img = 'images/pic.jpg';
 
 autoStart = isMiniature(); // used for nice miniature in CodePen
 
