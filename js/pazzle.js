@@ -1,3 +1,18 @@
+window.addEventListener("load", function(){
+
+let img = '../images/pic.jpg';
+
+autoStart = isMiniature(); // used for nice miniature in CodePen
+
+let x = new Puzzle ( {img: img,
+                      width: window.innerWidth,
+                      height: window.innerHeight,
+                      idiv: "forPuzzle" });
+
+});
+
+
+
 "use strict";
 
   let autoStart;
@@ -1484,15 +1499,15 @@ function lookForLoops (tbCases) {
 
 //---------------------------------------------------------------------------- -
 
-window.addEventListener("load", function(){
+// window.addEventListener("load", function(){
 
-let img = '../images/pic.jpg';
+// let img = '../images/pic.jpg';
 
-autoStart = isMiniature(); // used for nice miniature in CodePen
+// autoStart = isMiniature(); // used for nice miniature in CodePen
 
-let x = new Puzzle ( {img: img,
-                      width: window.innerWidth,
-                      height: window.innerHeight,
-                      idiv: "forPuzzle" });
+// let x = new Puzzle ( {img: img,
+//                       width: window.innerWidth,
+//                       height: window.innerHeight,
+//                       idiv: "forPuzzle" });
 
-});
+// });
